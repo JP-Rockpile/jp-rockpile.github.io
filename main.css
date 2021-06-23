@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    max-width: 1000px;
+}
+
+.icon-link{
+    max-width: 50px;
+}
+
+.container{
+    padding-top: 40px;
+}
+
+#linkedinprofpic{
+    max-width: 300px;
+    padding-top: 30px;
+}
