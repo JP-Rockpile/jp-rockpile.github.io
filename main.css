@@ -3,6 +3,12 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+nav{
+    background-color: rgb(182, 179, 179);
 }
 
 h1{
@@ -13,6 +19,26 @@ p{
     max-width: 1000px;
 }
 
+.rockpile{
+    max-height: 30px;
+}
+
+.project-link{
+    color: lightskyblue;
+}
+
+.gen-link{
+    color: lightskyblue;
+}
+
+.gen-link:visited{
+    color: rgb(173, 139, 173);
+}
+
+.gen-link:hover{
+    font-size: 20px;
+}
+
 .icon-link{
     max-width: 50px;
 }
@@ -21,7 +47,25 @@ p{
     padding-top: 40px;
 }
 
+.about-underline{
+    height: 10px;
+    max-width: 1000px;
+    background: rgb(93,0,0);
+    background: linear-gradient(90deg, rgba(93,0,0,1) 0%, rgba(232,54,0,1) 31%, rgba(255,239,0,1) 100%);
+    margin-bottom: 10px;
+}
+
+.project-images{
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+.project-column{
+    margin-top: 10px;
+}
+
 #linkedinprofpic{
     max-width: 300px;
     padding-top: 30px;
 }
+
